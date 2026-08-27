@@ -2,39 +2,27 @@
 
 ## Project Overview
 
-This project demonstrates the design and implementation of an enterprise risk register for a fictional Luxembourg Alternative Investment Fund Manager (AIFM).
+This project demonstrates the design and implementation of an enterprise risk-management framework for a fictional Luxembourg Alternative Investment Fund Manager (AIFM).
 
-The objective was to build a structured risk-management framework capable of identifying, assessing, prioritising and monitoring risks across a regulated investment-management environment. The project follows concepts commonly encountered within Luxembourg asset-management organisations operating under the AIFMD framework.
+The objective was to build a structured risk register capable of identifying, assessing, prioritising and monitoring enterprise risks within an investment-management environment. The project combines risk assessment, control evaluation, governance reporting, remediation tracking and executive communication into one integrated portfolio case study.
 
-The final deliverable includes:
-
-- A comprehensive 30-risk enterprise risk register
-- Inherent and residual risk assessment methodology
-- Control effectiveness evaluation
-- Risk appetite and escalation framework
-- Risk heat map
-- Governance and control-testing documentation
-- Management action tracking
-- Executive risk review
-- Supporting methodology documentation
-
-This project is an educational portfolio case study and does not represent a live institution, regulatory submission, approved risk policy or evidence of supervisory compliance.
+Rather than presenting a simple risk-scoring spreadsheet, the project demonstrates how a financial risk analyst can translate risk information into decision-ready management reporting using documented methodology, risk-appetite thresholds, control testing and action tracking.
 
 ---
 
 ## Business Problem
 
-Senior management and risk committees require a structured process for:
+Senior management, risk committees and control functions require a structured process for:
 
 - Identifying material business risks
 - Assessing likelihood and impact
 - Evaluating mitigating controls
 - Determining residual exposure
 - Prioritising remediation activities
-- Escalating exposures that exceed risk appetite
+- Escalating exposures exceeding risk appetite
 - Monitoring control effectiveness over time
 
-This project simulates how a risk analyst could support those activities within a Luxembourg-based investment-management environment.
+This project simulates how a risk analyst could support those responsibilities within a Luxembourg-based investment-management organisation.
 
 ---
 
@@ -56,7 +44,7 @@ Luxembourg RAIF umbrella structure
 
 EUR 1.2 billion
 
-### Strategy Mix
+### Investment Strategy
 
 - 50% European Listed Equities
 - 50% Private Credit and CLO Exposures
@@ -69,59 +57,82 @@ EUR 1.2 billion
 - Operational Risk
 - Compliance Risk
 - Governance Risk
-- ESG Risk
+- AML/KYC Risk
 - Cyber Risk
 - Business Continuity Risk
 - Third-Party Risk
+- ESG Risk
+- Data Quality Risk
+- Model Risk
+- Conduct Risk
+- Legal Risk
+- Tax Risk
 
 ---
 
-## Project Deliverables
+## Deliverables
 
 ### 1. Financial Risk Register — LuxCap Alternatives S.A. (AIFM).xlsx
 
 Primary workbook containing:
 
 - Institutional profile
-- 30-risk register
+- Enterprise risk register (30 risks)
 - Inherent risk scoring
 - Residual risk scoring
-- Control effectiveness assessments
-- Review schedules
-- Evidence references
 - Risk appetite framework
-- Heat map
-- Executive dashboard
+- Residual risk heat map
+- Executive summary dashboard
 - KRI dashboard
 - Control testing log
-- Action tracker
+- Management action tracker
 - Emerging risks register
 - Quality-control checklist
 
 ### 2. Executive Risk Review
 
-Management-level review covering:
+Management-level report covering:
 
 - Residual-risk landscape
 - Top risk exposures
 - Key control gaps
 - Governance observations
 - Prioritised management actions
-- Validation and limitations
+- Validation checks
+- Assumptions and limitations
 
-### 3. Scoring Methodology Note
+### 3. Risk Scoring Methodology Note
 
 Methodology document explaining:
 
-- Risk-identification approach
-- Likelihood framework
-- Impact framework
-- Control assessment methodology
-- Control-testing approach
-- Residual-risk calculation
-- Risk appetite alignment
+- Risk-identification framework
+- Likelihood assessment methodology
+- Impact assessment methodology
+- Control effectiveness evaluation
+- Residual-risk calculation approach
+- Risk-zone thresholds
+- Risk-appetite alignment
 - Validation procedures
 - Assumptions and limitations
+
+---
+
+## Workbook Structure
+
+The Excel workbook is organised into the following sections:
+
+| Worksheet | Purpose |
+|------------|----------|
+| Institutional Profile | Business context, governance and regulatory background |
+| Risk Register | Core enterprise risk inventory and scoring model |
+| Risk Appetite | Illustrative appetite thresholds and escalation triggers |
+| Heat Map | Residual risk visualisation and concentration analysis |
+| Executive Summary | Prioritised risk reporting for management |
+| KRI Dashboard | Key risk metrics and governance indicators |
+| Control Testing | Assurance testing and findings log |
+| Action Tracker | Remediation ownership and progress monitoring |
+| Emerging Risks | Forward-looking risk monitoring |
+| Checklist | Reconciliation and quality-control checks |
 
 ---
 
@@ -129,37 +140,29 @@ Methodology document explaining:
 
 ### Inherent Risk
 
-Inherent Risk Score
+**Inherent Risk Score = Likelihood × Impact**
 
-```text
-Likelihood × Impact
-```
-
-Range:
-
-```text
-1 to 25
-```
+Range: 1–25
 
 ### Control Effectiveness
 
-Controls are assessed as:
+Controls are evaluated using:
+
+- Design adequacy
+- Operating effectiveness
+- Available evidence
+- Escalation procedures
+- Testing results
+
+Controls are classified as:
 
 - Strong
 - Adequate
 - Weak
 
-Control effectiveness is evaluated using:
-
-- Design adequacy
-- Operating effectiveness
-- Available evidence
-- Escalation processes
-- Testing results
-
 ### Residual Risk
 
-Residual risk represents exposure remaining after controls are considered.
+Residual risk represents the level of exposure remaining after controls are considered.
 
 Residual assessments are supported by:
 
@@ -171,13 +174,13 @@ Residual assessments are supported by:
 
 ---
 
-## Governance Enhancements
+## Governance Features
 
-The project extends beyond a traditional risk register through inclusion of:
+The project extends beyond a traditional risk register through the inclusion of governance and oversight components.
 
 ### Risk Appetite Framework
 
-Illustrative appetite thresholds for:
+Illustrative appetite thresholds are defined for:
 
 - Credit Risk
 - Market Risk
@@ -185,27 +188,30 @@ Illustrative appetite thresholds for:
 - Operational Risk
 - Compliance Risk
 
+with linked management escalation routes.
+
 ### Control Testing Log
 
-Evidence-based assessment of:
+Fifteen documented control tests record:
 
-- Control design
-- Control operation
+- Test type
+- Result
 - Findings
 - Remediation requirements
+- Closure status
 
-### Action Tracker
+### Management Action Tracker
 
-Management remediation tracking including:
+Management actions are tracked through:
 
 - Named ownership
 - Due dates
 - Status monitoring
 - Supporting evidence
 
-### KRI Dashboard
+### Key Risk Indicator Dashboard
 
-Monitoring of:
+The dashboard monitors:
 
 - Critical risks
 - Weak controls
@@ -215,7 +221,7 @@ Monitoring of:
 
 ### Emerging Risks Register
 
-Forward-looking monitoring of risks including:
+Forward-looking monitoring includes:
 
 - Artificial Intelligence Risk
 - Geopolitical Risk
@@ -227,17 +233,17 @@ Forward-looking monitoring of risks including:
 
 ### Residual Risk Distribution
 
-| Zone | Count |
-|--------|--------|
+| Risk Zone | Count |
+|------------|--------:|
 | Critical | 4 |
 | High | 4 |
 | Moderate | 17 |
 | Low | 5 |
 
-### Control Assessment Distribution
+### Control Effectiveness Distribution
 
-| Control Rating | Count |
-|---------------|-------|
+| Rating | Count |
+|----------|--------:|
 | Strong | 2 |
 | Adequate | 23 |
 | Weak | 5 |
@@ -245,17 +251,13 @@ Forward-looking monitoring of risks including:
 ### Highest Residual Risks
 
 | Risk ID | Risk |
-|----------|----------|
+|----------|---------------------------------------------|
 | R007 | Liquidity Mismatch |
 | R010 | Illiquid Asset Valuation Error |
 | R005 | Equity Market Downturn |
-| R028 | Business Continuity Failure |
+| R028 | Business Continuity Plan Failure |
 
-Maximum Residual Score:
-
-```text
-20 / 25
-```
+**Maximum Residual Score: 20 / 25**
 
 ---
 
@@ -263,32 +265,33 @@ Maximum Residual Score:
 
 ### Financial Risk Management
 
+- Enterprise risk assessment
 - Risk taxonomy design
 - Risk scoring methodology
-- Residual risk assessment
-- Control effectiveness review
+- Residual-risk analysis
+- Control effectiveness evaluation
 - Risk prioritisation
 
 ### Asset Management Risk
 
-- AIFM risk concepts
+- AIFM governance concepts
 - Liquidity risk
-- Valuation governance
 - Counterparty risk
+- Valuation risk
 - Operational risk
-- Investment-fund risk oversight
+- Investment-fund oversight
 
 ### Excel
 
-- Risk register design
-- Dynamic scoring
-- Dashboard construction
-- Heat-map visualisation
+- Risk-register construction
+- Dynamic scoring models
+- Dashboard design
+- Heat-map reporting
 - Governance reporting
 
 ### Risk Governance
 
-- Risk appetite framework
+- Risk appetite frameworks
 - Escalation structures
 - Control testing
 - Action tracking
@@ -298,42 +301,63 @@ Maximum Residual Score:
 
 - Executive reporting
 - Methodology documentation
-- Risk rationale
-- Limitations and assumptions disclosure
+- Risk commentary
+- Assumptions and limitations disclosure
+
+---
+
+## How to Review This Project
+
+For the best review experience:
+
+### Step 1
+
+Open the Excel workbook and review:
+
+- Institutional Profile
+- Risk Register
+- Heat Map
+- Executive Summary
+
+### Step 2
+
+Review the KRI Dashboard, Control Testing Log and Action Tracker to understand the governance layer.
+
+### Step 3
+
+Read the Executive Risk Review to see how technical risk information is translated into management reporting.
+
+### Step 4
+
+Review the Methodology Note to understand the scoring framework, assumptions and limitations.
 
 ---
 
 ## Regulatory Context
 
-This project is informed by concepts found within:
+This project is informed by concepts commonly associated with:
 
-- AIFMD (Directive 2011/61/EU)
+- Directive 2011/61/EU (AIFMD)
 - Commission Delegated Regulation (EU) No 231/2013
 - Luxembourg Law of 12 July 2013
 - CSSF Circular 18/698
 - ESMA Liquidity Stress Testing Guidelines
-- ISO 31000:2018
+- ISO 31000 Risk Management Principles
 
-These references provide contextual background only.
-
-The project does **not** claim:
-
-- Regulatory approval
-- Supervisory validation
-- Regulatory compliance certification
-- Production implementation
-- Use by an actual regulated institution
+These references provide business and regulatory context only.
 
 ---
 
 ## Limitations
 
 - All entities are fictional.
-- All assumptions are illustrative.
+- All risk assessments are illustrative.
 - Risk scores are based on professional judgement.
+- Regulatory references are included for contextual understanding.
 - The project is a portfolio demonstration and not a live risk framework.
-- Numerical thresholds should not be interpreted as regulatory limits.
-- Risk assessments should not be used for investment, legal or regulatory decision-making.
+- Numerical thresholds should not be interpreted as regulatory requirements.
+- The project does not evidence regulatory compliance, supervisory approval or operational implementation.
+- The project should not be used for investment, legal, regulatory or risk-management decision-making.
 
 ---
 
@@ -342,5 +366,4 @@ The project does **not** claim:
 **Joy Lorna**  
 Financial Risk Analyst
 
-Portfolio Project  
-Luxembourg Financial Services Risk Management Case Study
+Luxembourg Financial Services Portfolio Project
